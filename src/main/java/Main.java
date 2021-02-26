@@ -1,7 +1,8 @@
 public class Main {
     public static void main(String[] args) {
         IncomeService service = new IncomeService ();
-        int income = service.calculate(1_000);
+        int sum = 1_999;
+        double income = service.calculate(sum);
         System.out.println(income);
     }
 }

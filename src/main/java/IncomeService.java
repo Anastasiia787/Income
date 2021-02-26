@@ -1,7 +1,7 @@
 public class IncomeService {
-        int calculate(int sum){
+        double calculate(double sum){
             int percent = 3;
-            int income = sum * percent / 100;
+            double income = sum * percent / 100;
 
             int limit = 3_000;
             if (income > limit) {
